@@ -1,3 +1,18 @@
 footer {
     height: 60px;
 }
+
+header.hug {
+    background: #373737 url('../images/bg/hug-in-park.jpg') no-repeat center top;
+    background-size: cover;
+}
+
+header.kiss {
+    background: #373737 url('../images/bg/kiss-in-park.png') no-repeat center top;
+    background-size: cover;
+}
+
+
+header.kiss .logo, header.kiss .sub-logo {
+    color: #FFF !important;
+}
