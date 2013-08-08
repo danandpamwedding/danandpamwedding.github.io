@@ -238,7 +238,7 @@ function neighborhood_map(id) {
 var map;
 var geocoder; 
 geocoder = new google.maps.Geocoder();
-var address = '11 Wall Street New York, NY 10005';
+var address = '511 Harrison Street, San Francisco, CA 94105';
 var isShowPin = true;
 if (address.indexOf("NOPIN") > 0) //do not show pin
 {
