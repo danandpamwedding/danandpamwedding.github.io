@@ -71,44 +71,75 @@ h3:hover {
 	width: 20%;
 }
 
-@media only screen and (max-width: 479px){
-	.logo, .sub-logo {
-		color: rgba(0, 0, 0, 0.75);
-	}
-}
-
-@media (min-width: 1200px){
-
-	nav .container .row {
-		margin-left: 0;
-	}
-
-	.span1 {
-		width: 5%;
-	}
-
-	#top-menu li:nth-child(4),
-	.span2 {
-		width: 12.5%;
-		margin-left: 2.5%
-	}
-}
-
 
 	
 /* ==========================================================================
    wufoo Form
    ========================================================================== */
 
+.wufoo textarea, 
+.wufoo input[type="text"], 
+.wufoo input[type="password"], 
+.wufoo input[type="datetime"], 
+.wufoo input[type="datetime-local"], 
+.wufoo input[type="date"], 
+.wufoo input[type="month"], 
+.wufoo input[type="time"], 
+.wufoo input[type="week"], 
+.wufoo input[type="number"], 
+.wufoo input[type="email"], 
+.wufoo input[type="url"], 
+.wufoo input[type="search"], 
+.wufoo input[type="tel"], 
+.wufoo input[type="color"], 
+.wufoo .uneditable-input {
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(204, 204, 204);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border linear .2s, box-shadow linear .2s;
+	-moz-transition: border linear .2s, box-shadow linear .2s;
+	-o-transition: border linear .2s, box-shadow linear .2s;
+	transition: border linear .2s, box-shadow linear .2s;
+}
+
 .wufoo ul {
 	list-style: none;
 }
 
-.wufoo label {
-	line-height: 50px;
+.wufoo li {
+	width: 100% !important;
+}
+
+.wufoo label,
+.wufoo legend {
+	border: 0px;
+	border-collapse: separate;
+	border-spacing: 0px;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 120% !important;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif !important;
+	color: rgb(102, 102, 102) !important;
 }
 	
-.wufoo input {
+.wufoo input[type="text"], 
+.wufoo input[type="password"], 
+.wufoo input[type="datetime"], 
+.wufoo input[type="datetime-local"], 
+.wufoo input[type="date"], 
+.wufoo input[type="month"], 
+.wufoo input[type="time"], 
+.wufoo input[type="week"], 
+.wufoo input[type="number"], 
+.wufoo input[type="email"], 
+.wufoo input[type="url"], 
+.wufoo input[type="search"], 
+.wufoo input[type="tel"], 
+.wufoo input[type="color"],
+.wufoo input[type="submit"]{
 	width: 100%;
 	height: 50px;
 	border-radius: 0;
@@ -192,4 +223,100 @@ h3:hover {
 .wufoo-address h3 {
 	padding: 10px;
 	margin-top: 0;
+}
+
+.leftLabel .desc, .rightLabel .desc {
+	width: 20%;
+}
+
+#fo1li9 {
+	padding-top: 0;
+}
+
+#fo1li9 > span {
+	width: 38.25%;
+}
+
+.leftLabel .desc, .rightLabel .desc {
+	margin: 0;
+}
+
+.leftLabel li div, .rightLabel li div {
+	width: 77%;
+}
+
+li.notStacked div span {
+	width: 100%;
+}
+
+input.other {
+	margin: 0 0 8px 0;
+}
+
+.wufoo .submit:hover {
+	background-color: rgb(121, 209, 176);
+}
+
+.leftLabel .buttons, .rightLabel .buttons {
+	padding-left: 21%;
+}
+
+.wufoo .buttons > div {
+	width: 99%;
+	margin: 0;
+}
+
+.wufoo #header {
+	display: none;
+}
+
+
+
+@media only screen and (max-width: 479px){
+	.logo, .sub-logo {
+		color: rgba(0, 0, 0, 0.75);
+	}
+
+	.leftLabel .desc, .rightLabel .desc {
+		float: none;
+	}
+
+	.wufoo li.focused {
+		background-color: transparent;
+	}
+
+	.leftLabel li div, .rightLabel li div,
+	.leftLabel .desc, .rightLabel .desc {
+		width: 100%;
+	}
+
+	.leftLabel .buttons, .rightLabel .buttons {
+		padding-left: 0;
+	}
+
+	#photogallery .row > div {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	#fo1li9 > span {
+		width: 48.25%;
+	}
+}
+
+@media (min-width: 1200px){
+
+	nav .container .row {
+		margin-left: 0;
+	}
+
+	.span1 {
+		width: 5%;
+	}
+
+	#top-menu li:nth-child(4),
+	.span2 {
+		width: 12.5%;
+		margin-left: 2.5%
+	}
 }
