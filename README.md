@@ -1,6 +1,6 @@
 danandpamwedding.github.io
 ==========================
 
-Dan and Pam Wedding Site
+Dan and Pam Wedding Site.
 
 
