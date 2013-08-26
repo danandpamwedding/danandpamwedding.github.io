@@ -237,6 +237,15 @@ h3:hover {
 	width: 38.25%;
 }
 
+#fo1li120 {
+	padding-top: 0;
+}
+
+#fo1li120 > span {
+	width: 38.25%;
+}
+
+
 .leftLabel .desc, .rightLabel .desc {
 	margin: 0;
 }
@@ -302,6 +311,11 @@ input.other {
 	#fo1li9 > span {
 		width: 48.25%;
 	}
+
+	#fo1li120 > span {
+		width: 48.25%;
+	}
+
 }
 
 @media (min-width: 1200px){
